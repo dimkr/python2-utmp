@@ -42,7 +42,7 @@ CLASSIFIERS = [
     'Intended Audience :: Developers',
     'Development Status :: 4 - Beta',
     'Programming Language :: Python',
-    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 2.7',
     'Operating System :: POSIX :: Linux',
     'License :: OSI Approved :: Apache Software License'
 ]

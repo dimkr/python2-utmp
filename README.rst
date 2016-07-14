@@ -5,7 +5,7 @@ utmp
 Pure-Python library to decode/read utmp and wtmp files.
 Please note that there is an alternative library which uses the underlying C API: pyutmp_
 
-This package requires Python 3.4.
+This package requires Python 2.7.
 
 What is utmp/wtmp?
 ==================
