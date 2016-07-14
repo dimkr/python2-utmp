@@ -23,12 +23,12 @@ def read_version(package):
         exec(fd.read(), data)
     return data['__version__']
 
-NAME = 'utmp'
+NAME = 'python2-utmp'
 MAIN_PACKAGE = 'utmp'
 VERSION = read_version(MAIN_PACKAGE)
 DESCRIPTION = 'utmp/wtmp reader'
 LICENSE = 'Apache License 2.0'
-URL = 'http://srcco.de/'
+URL = 'https://github.com/dimkr/python2-utmp'
 AUTHOR = 'Henning Jacobs'
 EMAIL = 'henning@jacobs1.de'
 
