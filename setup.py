@@ -17,15 +17,9 @@ from setuptools import setup
 __location__ = os.path.join(os.getcwd(), os.path.dirname(inspect.getfile(inspect.currentframe())))
 
 
-def read_version(package):
-    data = {'__name__': ''}
-    with open(os.path.join(package, '__init__.py'), 'r') as fd:
-        exec(fd.read(), data)
-    return data['__version__']
-
 NAME = 'python2-utmp'
 MAIN_PACKAGE = 'utmp'
-VERSION = read_version(MAIN_PACKAGE)
+VERSION = '0.4.2'
 DESCRIPTION = 'utmp/wtmp reader'
 LICENSE = 'Apache License 2.0'
 URL = 'https://github.com/dimkr/python2-utmp'
