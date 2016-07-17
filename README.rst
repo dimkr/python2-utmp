@@ -7,6 +7,8 @@ Please note that there is an alternative library which uses the underlying C API
 
 This package requires Python 2.7.
 
+Python 3.x users: use utmp_. This is a fork of utmp_ which adds nothing but a dependency on enum_, since it's not part of the Python 2.x stdlib.
+
 What is utmp/wtmp?
 ==================
 **utmp**, **wtmp**, **btmp** and variants such as **utmpx**, **wtmpx** and **btmpx** are files on Unix-like systems that keep track of all logins and logouts to the system.
